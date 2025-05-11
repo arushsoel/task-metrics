@@ -4,6 +4,7 @@
 1. Clone the repository
 
     1.1. git clone https://github.com/your-username/task-metrics.git
+    
     1.2. cd task-metrics
 
 2. Build the Docker image
