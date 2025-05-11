@@ -1,3 +1,5 @@
+# Prequisites
+    Need to have Docker and Python installed
 # Run the App with Docker
 1. Clone the repository
 
@@ -14,6 +16,6 @@
 
 4. Send Test Requests
 
-    python tools/feed_test_data.py(run in another terminal)
+    python tools/feed_test_data.py(run in another terminal can use python or python3)
 
     curl localhost:8080/metrics | grep task_duration_seconds(check in another terminal)
