@@ -4,7 +4,7 @@
 1. Clone the repository
 
     1.1. git clone https://github.com/your-username/task-metrics.git
-    
+
     1.2. cd task-metrics
 
 2. Build the Docker image
@@ -17,6 +17,6 @@
 
 4. Send Test Requests
 
-    python tools/feed_test_data.py(run in another terminal can use python or python3)
+    4.1 python tools/feed_test_data.py(run in another terminal can use python or python3)
 
-    curl localhost:8080/metrics | grep task_duration_seconds(check in another terminal)
+    4.2 curl localhost:8080/metrics | grep task_duration_seconds(check in another terminal)
