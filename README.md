@@ -3,8 +3,8 @@
 # Run the App with Docker
 1. Clone the repository
 
-    git clone https://github.com/your-username/task-metrics.git
-    cd task-metrics
+    1.1. git clone https://github.com/your-username/task-metrics.git
+    1.2. cd task-metrics
 
 2. Build the Docker image
 
